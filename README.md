@@ -2,6 +2,8 @@
 
 An android library to display the licenses of your application libraries in a easy way.
 
+###Demo image:
+
 ![demo gif](http://i.imgur.com/jNbGdCX.gif)
 
-more info coming soon...
+##More info coming soon...
