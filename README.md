@@ -8,6 +8,8 @@ An android library to display the licenses of your application libraries in a ea
 
 ### Instructions:
 
-There are two versions: with and without the AppCompat AlertDialog.
+There are two versions: the standard version and the AppCompat version (with Material Design).
+
+paso1
 
 >See the [sample project](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/sample) for clarify any queries you may have.
