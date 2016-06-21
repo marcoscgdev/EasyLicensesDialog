@@ -10,6 +10,7 @@ An android library to display the licenses of your application libraries in a ea
 
 There are two versions: the standard version and the AppCompat version (with Material Design).
 
-paso1
+####Step: 1
+Include your prefered version of [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/blob/master/library) to your _libs_ folder.
 
 >See the [sample project](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/sample) for clarify any queries you may have.
