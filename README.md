@@ -40,7 +40,8 @@ EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
 
 ###License
 
-```The MIT License (MIT)
+```
+The MIT License (MIT)
 
 Copyright (c) 2016 Marcos Calvo García
 
