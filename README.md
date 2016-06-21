@@ -8,4 +8,4 @@ An android library to display the licenses of your application libraries in a ea
 
 ### Instructions:
 
->See 
+>See the [sample project](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/sample) for clarify any queries you may have.
