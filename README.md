@@ -17,7 +17,7 @@ Include your prefered version of [easylicensesdialog.jar](https://github.com/mar
 Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/html%20file) file and include it into your _assets_ folder. Is **very important** that this file has the same name as here!
 
 ####Step 3:
-Whenever you want to show the Easy Licenses Dialog, you can do it by following this:
+If you want to show the Easy Licenses Dialog, you can follow this snippet:
 
 ```java
 EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
