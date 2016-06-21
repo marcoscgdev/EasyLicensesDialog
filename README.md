@@ -4,7 +4,7 @@ An android library to display the licenses of your application libraries in a ea
 
 ###Demo:
 
-Download the [sample apk file](https://github.com/marcoscgdev/EasyLicensesDialog/raw/master/sample/app-debug.apk).
+You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLicensesDialog/raw/master/sample/app-debug.apk).
 
 ![demo gif](https://raw.githubusercontent.com/marcoscgdev/EasyLicensesDialog/master/sample/device-2016-06-21-005826.gif)
 
