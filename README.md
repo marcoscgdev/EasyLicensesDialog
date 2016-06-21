@@ -4,7 +4,7 @@ An android library to display the licenses of your application libraries in a ea
 
 ---
 
-###Demo:
+##Demo:
 
 You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLicensesDialog/raw/master/sample/app-debug.apk).
 
@@ -12,7 +12,7 @@ You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLi
 
 ---
 
-### Instructions:
+## Instructions:
 
 There are two versions: the standard version and the AppCompat version (with Material Design).
 
@@ -38,7 +38,7 @@ EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
 
 ---
 
-###License
+##License
 
 ```
 The MIT License (MIT)
