@@ -2,11 +2,15 @@
 
 An android library to display the licenses of your application libraries in a easy way.
 
+---
+
 ###Demo:
 
 You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLicensesDialog/raw/master/sample/app-debug.apk).
 
 ![demo gif](https://raw.githubusercontent.com/marcoscgdev/EasyLicensesDialog/master/sample/device-2016-06-21-005826.gif)
+
+---
 
 ### Instructions:
 
@@ -28,5 +32,7 @@ EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
         //easyLicensesDialog.setIcon(R.mipmap.ic_launcher); //add an icon to the title
         easyLicensesDialog.show(); //show the dialog
 ```
+
+---
 
 >See the [sample project](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/sample) for clarify any queries you may have.
