@@ -13,4 +13,7 @@ There are two versions: the standard version and the AppCompat version (with Mat
 ####Step: 1
 Include your prefered version of [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/blob/master/library) to your _libs_ folder.
 
+####Step 2:
+Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/html%20file) file and include it into your _assets_ folder. Is *very important* that this file has the same name as here!
+
 >See the [sample project](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/sample) for clarify any queries you may have.
