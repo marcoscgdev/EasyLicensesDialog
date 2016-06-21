@@ -12,7 +12,7 @@ You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLi
 
 ---
 
-## Instructions:
+## Usage:
 
 There are two versions: the standard version and the AppCompat version (with Material Design).
 
