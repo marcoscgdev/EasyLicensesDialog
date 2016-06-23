@@ -12,6 +12,12 @@ You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLi
 
 ---
 
+## Releases:
+
+You can see all the library releases [here](https://github.com/marcoscgdev/EasyLicensesDialog/releases).
+
+---
+
 ## Usage:
 
 There are two versions: the standard version and the AppCompat version (with Material Design).
