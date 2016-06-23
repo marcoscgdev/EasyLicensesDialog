@@ -14,6 +14,8 @@ You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLi
 
 ## Releases:
 
+#### Latest release: **1.0.2**.
+
 You can see all the library releases [here](https://github.com/marcoscgdev/EasyLicensesDialog/releases).
 
 ---
