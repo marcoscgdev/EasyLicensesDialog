@@ -65,7 +65,7 @@ EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
 ```
 
 ---
->See the [sample project](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/sample) to clarify any queries you may have.
+>See the *sample project* to clarify any queries you may have.
 
 ---
 
