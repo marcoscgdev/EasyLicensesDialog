@@ -14,7 +14,7 @@ You can see all the library releases [here](https://github.com/marcoscgdev/EasyL
 
 ##Demo:
 
-You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLicensesDialog/raw/master/sample/app-debug.apk).
+You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLicensesDialog/blob/master/app-debug.apk?raw=true).
 
 ![demo gif](https://raw.githubusercontent.com/marcoscgdev/EasyLicensesDialog/master/device-2016-06-21-005826.gif)
 
