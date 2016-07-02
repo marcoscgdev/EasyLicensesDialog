@@ -36,7 +36,7 @@ allprojects {
 }
 ```
 
-Now add your prefered version to the app *build.gradle* file:
+Now add your prefered version to the app *build.gradle* file (**Only one!!**):
 
 ```
 compile 'com.github.marcoscgdev.EasyLicensesDialog:appcompatversion:1.0.4'
