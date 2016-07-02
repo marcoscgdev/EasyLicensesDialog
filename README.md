@@ -36,7 +36,7 @@ allprojects {
 }
 ```
 
-Now add your prefered version to the app *build.gradle* file (**Only one!!**):
+Now add your prefered version to your app *build.gradle* file (**Only one!!**):
 
 ```
 compile 'com.github.marcoscgdev.EasyLicensesDialog:appcompatversion:1.0.4'
@@ -48,10 +48,10 @@ compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.4'
 
 ####Step: 1B - adding the library via Jar file
 
-Include your prefered version of [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR%20files) into the *libs* folder. **Only one!!**
+Include your prefered version of [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR%20files) into your *libs* folder. **Only one!!**
 
 ####Step 2:
-Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your _assets_ folder. Is **very important** that this file has the same name as here!
+Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your *assets* folder. Is **very important** that this file has the same name as here!
 
 ####Step 3:
 If you want to show the Easy Licenses Dialog, you can follow this snippet:
