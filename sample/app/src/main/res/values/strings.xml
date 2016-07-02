@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">EasyLicensesDialogSample</string>
-    <string name="library_name">EasyLicensesDialog</string>
-    <string name="about_text"><![CDATA[This library has been developed by <b>Marcos CG</b>.<br><br>If you have any queries please don\'t hesitate to contact me.<br><br><b><a href="https://www.facebook.com/MarcosCGdev">Facebook</a>&nbsp;&nbsp; <a href="https://twitter.com/marcoscgdev">Twitter</a>&nbsp;&nbsp; <a href="https://plus.google.com/100706453241286888360">Google+</a>&nbsp;&nbsp; <a href="https://github.com/marcoscgdev?tab=repositories">GitHub</a>&nbsp;&nbsp; <a href="http://marcoscgdev.github.io">Website</a></b><br> ]]></string>
-</resources>
