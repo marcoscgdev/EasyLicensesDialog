@@ -24,7 +24,7 @@ You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLi
 
 There are two versions: the standard version and the AppCompat version (with Material Design).
 
-####Step: 1
+####Step: 1A - via Gradle
 
 First of all add this to your root *build.gradle* file:
 
@@ -45,6 +45,10 @@ or
 ```
 compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.3'
 ```
+
+####Step: 1B - via Jar file
+
+Include the jar file of your prefered version into the *libs* folder. **Only one!!**
 
 ####Step 2:
 Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your _assets_ folder. Is **very important** that this file has the same name as here!
