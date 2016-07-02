@@ -39,11 +39,11 @@ allprojects {
 Now add your prefered version to the app *build.gradle* file:
 
 ```
-compile 'com.github.marcoscgdev.EasyLicensesDialog:appcompatversion:1.0.3'
+compile 'com.github.marcoscgdev.EasyLicensesDialog:appcompatversion:1.0.4'
 ```
 or
 ```
-compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.3'
+compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.4'
 ```
 
 ####Step: 1B - adding the library via Jar file
