@@ -48,7 +48,7 @@ compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.3'
 
 ####Step: 1B - via Jar file
 
-Include the jar file of your prefered version into the *libs* folder. **Only one!!**
+Include your prefered version of [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR%20files) into the *libs* folder. **Only one!!**
 
 ####Step 2:
 Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your _assets_ folder. Is **very important** that this file has the same name as here!
