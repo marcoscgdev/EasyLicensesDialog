@@ -47,7 +47,7 @@ compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.3'
 ```
 
 ####Step 2:
-Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/html%20file) file and include it into your _assets_ folder. Is **very important** that this file has the same name as here!
+Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your _assets_ folder. Is **very important** that this file has the same name as here!
 
 ####Step 3:
 If you want to show the Easy Licenses Dialog, you can follow this snippet:
