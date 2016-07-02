@@ -6,7 +6,7 @@ An android library to display the licenses of your application libraries in a ea
 
 ## Releases:
 
-#### Current release: 1.0.3.
+#### Current release: 1.0.4.
 
 You can see all the library releases [here](https://github.com/marcoscgdev/EasyLicensesDialog/releases).
 
