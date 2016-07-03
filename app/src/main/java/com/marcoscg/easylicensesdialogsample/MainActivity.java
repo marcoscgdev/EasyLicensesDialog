@@ -10,13 +10,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
-import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.TableLayout;
 import android.widget.TextView;
 
 import com.marcoscg.easylicensesdialog.EasyLicensesDialog;
@@ -41,31 +38,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void showAboutDialog() {
         String msg = getResources().getString(R.string.about_text);
-        LinearLayout rl = new LinearLayout(this);
-        rl.setPadding(dpToPx(24),dpToPx(16),dpToPx(24),dpToPx(0));
-        rl.setOrientation(LinearLayout.VERTICAL);
-        rl.setGravity(Gravity.CENTER_HORIZONTAL);
-        TextView tv  = new TextView(this);
-        tv.setMovementMethod(LinkMovementMethod.getInstance());
-        tv.setText(Html.fromHtml(msg));
-        tv.setTextSize(16);
-        tv.setTextColor(Color.parseColor("#757575"));
-        tv.setLayoutParams(new TableLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f));
-        rl.addView(tv);
-        AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.DialogStyle);
-        builder.setTitle("About " + getResources().getString(R.string.library_name));
-        builder.setView(rl);
-        builder.setPositiveButton("Close", null);
-        builder.setNeutralButton("View On GitHub",
-                new DialogInterface.OnClickListener()
-                {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which)
-                    {
+        AlertDialog alertDialog = new AlertDialog.Builder(this, R.style.DialogStyle).create();
+        alertDialog.setTitle("About " + getResources().getString(R.string.app_name));
+        alertDialog.setMessage(Html.fromHtml(msg));
+        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,"Close",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+        alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL,"View on GitHub",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
                         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/marcoscgdev/EasyLicensesDialog")));
                     }
                 });
-        builder.show();
+        alertDialog.show();
+        TextView messageView = (TextView)alertDialog.findViewById(android.R.id.message);
+        messageView.setGravity(Gravity.CENTER);
+        messageView.setTextColor(Color.parseColor("#757575"));
+        ((TextView)alertDialog.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     @Override
@@ -82,12 +73,6 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public int dpToPx(int dp) {
-        DisplayMetrics displayMetrics = getApplicationContext().getResources().getDisplayMetrics();
-        int px = Math.round(dp * (displayMetrics.xdpi / DisplayMetrics.DENSITY_DEFAULT));
-        return px;
     }
 
 }
