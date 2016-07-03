@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     public void showAboutDialog() {
         String msg = getResources().getString(R.string.about_text);
         AlertDialog alertDialog = new AlertDialog.Builder(this, R.style.DialogStyle).create();
-        alertDialog.setTitle("About " + getResources().getString(R.string.app_name));
+        alertDialog.setTitle("About " + getResources().getString(R.string.library_name));
         alertDialog.setMessage(Html.fromHtml(msg));
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,"Close",
                 new DialogInterface.OnClickListener() {
