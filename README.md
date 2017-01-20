@@ -6,7 +6,7 @@ An android library to display the licenses of your application libraries in a ea
 
 ## Releases:
 
-#### Current release: 1.0.4.
+#### Current release: 1.0.5.
 
 You can see all the library releases [here](https://github.com/marcoscgdev/EasyLicensesDialog/releases).
 
@@ -36,19 +36,15 @@ allprojects {
 }
 ```
 
-Now add your prefered version to your app *build.gradle* file (**Only one!!**):
+Now add the dependency to your app *build.gradle* file (**Only one!!**):
 
 ```
-compile 'com.github.marcoscgdev.EasyLicensesDialog:appcompatversion:1.0.4'
-```
-or
-```
-compile 'com.github.marcoscgdev.EasyLicensesDialog:standardversion:1.0.4'
+compile 'com.github.marcoscgdev.EasyLicensesDialog:1.0.5'
 ```
 
 ####Step: 1B - adding the library via Jar file
 
-Include your prefered version of [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR%20files) into your *libs* folder. **Only one!!**
+Include [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR%20files) into your *libs* folder.
 
 ####Step 2:
 Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your *assets* folder. Is **very important** that this file has the same name as here!
@@ -57,11 +53,10 @@ Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/
 If you want to show the Easy Licenses Dialog, you can follow this snippet:
 
 ```java
-EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
-        easyLicensesDialog.setTitle("Licenses"); //by default EasyLicensesDialog comes without any title.
-        easyLicensesDialog.setCancelable(true); //true or false
-        //easyLicensesDialog.setIcon(R.mipmap.ic_launcher); //add an icon to the title
-        easyLicensesDialog.show(); //show the dialog
+new EasyLicensesDialogCompat(this)
+                .setTitle("Licenses")
+                .setPositiveButton(android.R.string.ok, null)
+                .show();
 ```
 
 ---
