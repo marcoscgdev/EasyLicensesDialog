@@ -16,12 +16,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.marcoscg.easylicensesdialog.EasyLicensesDialog;
+import com.marcoscg.easylicensesdialog.EasyLicensesDialogCompat;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -29,11 +29,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showLicensesDialog(View view) {
-        EasyLicensesDialog easyLicensesDialog = new EasyLicensesDialog(this);
-        easyLicensesDialog.setTitle("Licenses"); //by default EasyLicensesDialog comes without any title.
-        easyLicensesDialog.setCancelable(true); //true or false
-        //easyLicensesDialog.setIcon(R.mipmap.ic_launcher);
-        easyLicensesDialog.show();
+        new EasyLicensesDialogCompat(this)
+                .setTitle("Licenses")
+                .setPositiveButton(android.R.string.ok, null)
+                .show();
     }
 
     public void showAboutDialog() {
