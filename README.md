@@ -44,7 +44,7 @@ compile 'com.github.marcoscgdev.EasyLicensesDialog:1.0.5'
 
 ####Step: 1B - adding the library via Jar file
 
-Include [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR%20files) into your *libs* folder.
+Include [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR) into your *libs* folder.
 
 ####Step 2:
 Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your *assets* folder. Is **very important** that this file has the same name as here!
