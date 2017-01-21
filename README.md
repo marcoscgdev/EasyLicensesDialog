@@ -6,7 +6,7 @@ An android library to display the licenses of your application libraries in a ea
 
 ## Releases:
 
-#### Current release: 1.0.5.
+#### Current release: 1.1.0.
 
 You can see all the library releases [here](https://github.com/marcoscgdev/EasyLicensesDialog/releases).
 
@@ -39,7 +39,7 @@ allprojects {
 Now add the dependency to your app *build.gradle* file (**Only one!!**):
 
 ```
-compile 'com.github.marcoscgdev.EasyLicensesDialog:1.0.5'
+compile 'com.github.marcoscgdev.EasyLicensesDialog:1.1.0'
 ```
 
 ####Step: 1B - adding the library via Jar file
