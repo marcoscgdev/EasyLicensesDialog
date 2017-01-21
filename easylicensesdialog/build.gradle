@@ -4,6 +4,9 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.marcoscgdev'
 
 android {
+    dexOptions {
+        preDexLibraries = false
+    }
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
 
