@@ -12,7 +12,7 @@ You can see all the library releases [here](https://github.com/marcoscgdev/EasyL
 
 ---
 
-##Demo:
+## Demo:
 
 You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLicensesDialog/blob/master/app-debug.apk?raw=true).
 
@@ -24,7 +24,7 @@ You can download the **sample apk** [here](https://github.com/marcoscgdev/EasyLi
 
 There are two versions: the standard version and the AppCompat version (with Material Design).
 
-####Step: 1A - adding the library via Gradle
+#### Step: 1A - adding the library via Gradle
 
 First of all add this to your root *build.gradle* file:
 
@@ -42,14 +42,14 @@ Now add the dependency to your app *build.gradle* file:
 compile 'com.github.marcoscgdev:EasyLicensesDialog:2.0.0'
 ```
 
-####Step: 1B - adding the library via Jar file
+#### Step: 1B - adding the library via Jar file
 
 Include [easylicensesdialog.jar](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/JAR) into your *libs* folder.
 
-####Step 2:
+#### Step 2:
 Edit the [licenses.html](https://github.com/marcoscgdev/EasyLicensesDialog/tree/master/app/src/main/assets) file and include it into your *assets* folder. Is **very important** that this file has the same name as here!
 
-####Step 3:
+#### Step 3:
 If you want to show the Easy Licenses Dialog, you can follow this snippet:
 
 ```java
@@ -64,7 +64,7 @@ new EasyLicensesDialogCompat(this)
 
 ---
 
-##License
+## License
 
 ```
 The MIT License (MIT)
