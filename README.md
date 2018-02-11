@@ -1,4 +1,4 @@
-# Easy Licenses Dialog  [![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=9) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Easy%20Licenses%20Dialog-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3754)
+# [DEPRECATED]Easy Licenses Dialog  [![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=9) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Easy%20Licenses%20Dialog-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3754)
 
 An android library to display the licenses of your application libraries in a easy way.
 
